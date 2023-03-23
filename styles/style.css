@@ -9,9 +9,7 @@
 .side-banner {
     background-image: url(/images/developer.png);
     background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: 5px;
-    background-attachment: fixed;
+
 }
 
 
