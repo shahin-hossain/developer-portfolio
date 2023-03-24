@@ -28,7 +28,7 @@ h2 {
     color: orange;
 }
 
-section {
+.flex-container {
     display: flex;
     margin-bottom: 100px;
     justify-content: space-between;
@@ -37,8 +37,6 @@ section {
 .half-width {
     width: 50%;
     padding-left: 10%;
-    margin-top: 100px;
-
 
 }
 
@@ -81,4 +79,23 @@ section {
 .dream-big {
     padding: 20px;
     margin-top: 250px;
+}
+
+.experiance-box {
+    width: 50%;
+    padding: 20px;
+    margin: 0px 100px;
+    text-align: justify;
+    box-shadow: 5px 10px 30px rgb(110, 109, 109);
+
+    border-left: 5px solid;
+
+    border-image: linear-gradient(to bottom, red, orange);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
 }
